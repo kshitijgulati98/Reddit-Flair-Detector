@@ -12,3 +12,15 @@ After loading the dataset, I have performed text preprocessing on the textual da
 We then split the dataset into 67% train and 33% test and use the Random Forest, MLP and Naive Bayes Model. The Random forest model performs the best with 81.5 % accuracy. The classification report is as follows:
 
 ![classification report](https://drive.google.com/uc?export=view&id=1ALTIJw6wwIGgS2cAd8e-Vw7N93UtDg-p)
+
+Part 4 - Building a Web Application
+I created a web application using Flask. 
+- I have created two seperate web applications. 
+  1. The first one for Flair detection by giving the input as a link
+  2. The second for the automated checkpoint which takes the input as a .txt file with reddit links and outputs a json file        with the results.
+  
+  The installation for boths apps is exactly the same.
+  
+  Installaation:-
+  First download the pickle file for the random forest classifier from https://drive.google.com/file/d/18vIjbW96VATbpCL_6rmMdWCnfvhmnbzU/view?usp=sharing.
+  Open the folder for either [Flair Detector](https://github.com/user/repo/blob/branch/other_file.md)
