@@ -54,9 +54,9 @@ We deploy the apps on heroku
 
 
 ## References-
-1)https://towardsdatascience.com/deploying-a-deep-learning-model-on-heroku-using-flask-and-python-769431335f66
-2)https://towardsdatascience.com/designing-a-machine-learning-model-and-deploying-it-using-flask-on-heroku-9558ce6bde7b
-3)https://www.storybench.org/how-to-scrape-reddit-with-python/
-4)https://stackoverflow.com/questions/54396405/how-can-i-preprocess-nlp-text-lowercase-remove-special-characters-remove-numb
-5)https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
-6)https://praw.readthedocs.io/en/latest/code_overview/models/submission.html
+1. https://towardsdatascience.com/deploying-a-deep-learning-model-on-heroku-using-flask-and-python-769431335f66
+2. https://towardsdatascience.com/designing-a-machine-learning-model-and-deploying-it-using-flask-on-heroku-9558ce6bde7b
+3. https://www.storybench.org/how-to-scrape-reddit-with-python/
+4. https://stackoverflow.com/questions/54396405/how-can-i-preprocess-nlp-text-lowercase-remove-special-characters-remove-numb
+5. https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
+6. https://praw.readthedocs.io/en/latest/code_overview/models/submission.html
