@@ -1,7 +1,8 @@
 # REDDIT FLAIR DETECTOR
 This is a reddit flair detector for r/India posts.
 Link to heroku app - https://reddit-flair-det.herokuapp.com/
-link to the automated_checkpoint is - https://reddit-automated-checkpoint.herokuapp.com/
+
+Link to the automated_checkpoint is - https://reddit-automated-checkpoint.herokuapp.com/ .
 
 
 ## Part 1 - Data Collection
