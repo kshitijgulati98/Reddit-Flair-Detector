@@ -29,7 +29,7 @@ I created a web application using Flask.
   
   Installaation:-
   1) First download the pickle file for the random forest classifier from https://drive.google.com/file/d/18vIjbW96VATbpCL_6rmMdWCnfvhmnbzU/view?usp=sharing.
-  Open the folder for either [Flair Detector](https://github.com/kshitijgulati98/reddit-flair-detector/tree/master/Website-%20Flair%20Detector).
+  Open the folder for [Website- Flair Detector](https://github.com/kshitijgulati98/reddit-flair-detector/tree/master/Website-%20Flair%20Detector).
   2) Clone the github repositroy
   3) After downloading the pickle file, put it in the folder 'Website- Flair Detector' of the repository
   4) Open the terminal and route it to the 'Website- Flair Detector'
