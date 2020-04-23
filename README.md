@@ -12,7 +12,7 @@ his part is illustrated in the file [Part 3 - Flair Detector.ipynb](https://gith
 After loading the dataset, I have performed text preprocessing on the textual data such as comments, title, text(body) to remove special characters and stopwords(from the nltk library). After that I have performed vectorisation followed by TFIDF on these 3 text based features and appended them to other features such as number of comments, score, upvote ratio, locked(T/F). This constitues our feature matrix. 
 We then split the dataset into 67% train and 33% test and use the Random Forest, MLP and Naive Bayes Model. The Random forest model performs the best with 81.5 % accuracy. The classification report is as follows:
 
-![classification report](https://drive.google.com/uc?export=view&id=1ALTIJw6wwIGgS2cAd8e-Vw7N93UtDg-p)
+![classification report](https://drive.google.com/file/d/1pgHtXP2qkEPZvcatJB2nrnbvSUGWjk_o/view?usp=sharing)
 
 ## Part 4 - Building a Web Application
 I created a web application using Flask. 
@@ -37,7 +37,7 @@ After finishing installation, give r/India post link to the flair detector and i
 The flair detector also has a link to the **automated_checkpoint**
 In the automated checkpoint, Give an input of reddit links as a .txt file for example: [reddit-links.txt](https://github.com/kshitijgulati98/reddit-flair-detector/blob/master/reddit-links.txt) and you will get an output in the form of a json file where the key is the link and the value is the predicted flair like this :
 
-![JSON output](https://drive.google.com/uc?export=view&id=1pgHtXP2qkEPZvcatJB2nrnbvSUGWjk_o)
+![JSON output](https://drive.google.com/uc?export=view&id=1ALTIJw6wwIGgS2cAd8e-Vw7N93UtDg-p)
 
 
 
