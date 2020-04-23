@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Flair Detector</title>
+	<meta charset="UTF-8">
+	
+</head>
+<body>
+<marquee behavior="alternate" bgcolor="red">Flair Detector</marquee>
+<div class="bg-contact2"><div class="container-contact2">
+<div class="wrap-contact2">
+<form class="contact2-form validate-form" action="{{url_for('predict')}}" method="POST" enctype="multipart/form-data">
+<span class="contact2-form-title">
+<b><font size="7" face="Comic sans MS" color="red">Reddit Flair Detection (Automated Checkpoint)</font></b>
+</span>
+<img src="https://www.droid-life.com/wp-content/uploads/2016/04/official-reddit-app-android.jpg" style="width:100px;height:q00px;">
+<h3><font size="5" face="Comic sans MS" color="blue">Choose .txt file with r/India post links</h3></font>
+<br>
+<div class="wrap-input2 validate-input">
+<input class="input2" type="file" name="filename" id="filename">
+</div>
+<div class="container-contact2-form-btn">
+<div class="wrap-contact2-form-btn">
+<div class="contact2-form-bgbtn"></div>
+<button class="contact2-form-btn" type="Submit">
+Get JSON for flairs
+</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+
+</body>
+</html>
