@@ -1,8 +1,11 @@
 # REDDIT FLAIR DETECTOR
 This is a reddit flair detector for r/India posts.
+Link to heroku app - https://reddit-flair-det.herokuapp.com/
+link to the automated_checkpoint is - https://reddit-automated-checkpoint.herokuapp.com/
+
 
 ## Part 1 - Data Collection
-This part is illustrated in the file [Part 1 -  Data Collection.ipynb](https://github.com/kshitijgulati98/reddit-flair-detector/blob/master/Jupyter%20Notebooks/Part%201%20-%20%20Data%20Collection.ipynb). I have collected data using Reddit API via the praw library on python. I have collected about 200 posts per flair. The collected data is a csv file [reddit_data.csv](https://drive.google.com/file/d/1pgHtXP2qkEPZvcatJB2nrnbvSUGWjk_o/view?usp=sharing).
+This part is illustrated in the file [Part 1 -  Data Collection.ipynb](https://github.com/kshitijgulati98/reddit-flair-detector/blob/master/Jupyter%20Notebooks/Part%201%20-%20%20Data%20Collection.ipynb). I have collected data using Reddit API via the praw library on python. I have collected about 200 posts per flair. The collected data is a csv file [reddit_data.csv](https://github.com/kshitijgulati98/reddit-flair-detector/blob/master/reddit_data.csv).
 
 ## Part 2 - Exploratory Data Analysis
 After collecting the data, I have performed a detailed EDA to decide what features to use while building the model. This part is illustrated in the file [Part 2 - EDA.ipynb](https://github.com/kshitijgulati98/reddit-flair-detector/blob/master/Jupyter%20Notebooks/Part%202%20-%20EDA.ipynb)
