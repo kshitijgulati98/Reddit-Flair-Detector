@@ -23,4 +23,4 @@ I created a web application using Flask.
   
   Installaation:-
   First download the pickle file for the random forest classifier from https://drive.google.com/file/d/18vIjbW96VATbpCL_6rmMdWCnfvhmnbzU/view?usp=sharing.
-  Open the folder for either [Flair Detector](https://github.com/user/repo/blob/branch/other_file.md)
+  Open the folder for either [Flair Detector](https://github.com/kshitijgulati98/reddit-flair-detector/tree/master/Website-%20Flair%20Detector) or the [Automated Checkpoint](https://github.com/kshitijgulati98/reddit-flair-detector/tree/master/Website%20-%20Automated_Checkpoint)
