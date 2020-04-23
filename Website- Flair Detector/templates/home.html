@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>Home</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+	<marquee behavior="alternate" bgcolor="red">Reddit Flair Detector</marquee>
+	<header>
+		<div class="container">
+		<div id="brandname"><font size="7" face="Comic sans MS" color="red">
+			REDDIT FLAIR DETECTOR</font><img src="https://www.droid-life.com/wp-content/uploads/2016/04/official-reddit-app-android.jpg" style="width:100px;height:q00px;">
+		</div>
+		
+	</div>
+	</header>
+
+<div>
+  <form action="{{ url_for('predict')}}" method="POST">
+    <p><font size="5" face="Comic sans MS" color="blue">Enter the Reddit India URL here :</font> </p>
+		<!-- <input type="text" name="comment"/> -->
+	<textarea name="url" cols="100"></textarea>
+	<br/>
+    
+    <input type="submit" class="btn-info" value="predict">
+  </form>
+</div>
+
+
+<div class="results">
+
+	<font size="5" face="Comic sans MS" color="grey">Predicted Flair:</font> <font size="5" face="Comic sans MS" color="green">{{ prediction }} </font>
+
+
+</div>
+<a href="https://reddit-automated-checkpoint.herokuapp.com/"><h3>Click to go to webpage for automated checkpoint</h3></a>
+</body>
+</html>
