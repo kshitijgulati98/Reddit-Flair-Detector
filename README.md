@@ -15,7 +15,7 @@ After collecting the data, I have performed a detailed EDA to decide what featur
 This part is illustrated in the file [Part 3 - Flair Detector.ipynb](https://github.com/kshitijgulati98/reddit-flair-detector/blob/master/Jupyter%20Notebooks/Part%203%20-%20Flair%20Detector.ipynb)
 After loading the dataset, I have performed text preprocessing on the textual data such as comments, title, text(body) to remove special characters and stopwords(from the nltk library).The data after filtering and preprocessing the textual features is [cleandata.csv](https://github.com/kshitijgulati98/reddit-flair-detector/blob/master/cleandata.csv)
 After that I have performed vectorisation followed by TFIDF on these 3 text based features and appended them to other features such as number of comments, score, upvote ratio, locked(T/F). This constitues our feature matrix. 
-We then split the dataset into 67% train and 33% test and use the Random Forest, MLP and Naive Bayes Model. The Random forest model performs the best with 81.5 % accuracy. The classification report is as follows:
+We then split the dataset into 67% train and 33% test and use the Random Forest, MLP and Naive Bayes Model. The Random forest model performs the best with ***81.5*** % accuracy. The classification report is as follows:
 
 ![classification report](https://drive.google.com/uc?export=view&id=1ALTIJw6wwIGgS2cAd8e-Vw7N93UtDg-p)
 
