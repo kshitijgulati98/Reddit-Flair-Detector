@@ -12,7 +12,7 @@ This part is illustrated in the file [Part 1 -  Data Collection.ipynb](https://g
 After collecting the data, I have performed a detailed EDA to decide what features to use while building the model. This part is illustrated in the file [Part 2 - EDA.ipynb](https://github.com/kshitijgulati98/reddit-flair-detector/blob/master/Jupyter%20Notebooks/Part%202%20-%20EDA.ipynb)
 
 ## Part 3 - Building a Classifier
-his part is illustrated in the file [Part 3 - Flair Detector.ipynb](https://github.com/kshitijgulati98/reddit-flair-detector/blob/master/Jupyter%20Notebooks/Part%203%20-%20Flair%20Detector.ipynb)
+This part is illustrated in the file [Part 3 - Flair Detector.ipynb](https://github.com/kshitijgulati98/reddit-flair-detector/blob/master/Jupyter%20Notebooks/Part%203%20-%20Flair%20Detector.ipynb)
 After loading the dataset, I have performed text preprocessing on the textual data such as comments, title, text(body) to remove special characters and stopwords(from the nltk library).The data after filtering and preprocessing the textual features is [cleandata.csv](https://github.com/kshitijgulati98/reddit-flair-detector/blob/master/cleandata.csv)
 After that I have performed vectorisation followed by TFIDF on these 3 text based features and appended them to other features such as number of comments, score, upvote ratio, locked(T/F). This constitues our feature matrix. 
 We then split the dataset into 67% train and 33% test and use the Random Forest, MLP and Naive Bayes Model. The Random forest model performs the best with 81.5 % accuracy. The classification report is as follows:
@@ -35,8 +35,9 @@ I created a web application using Flask.
   4) Open the terminal and route it to the 'Website- Flair Detector'
   5) Next, Create a virtual environment.
   6) type ```pip install -r requirements.txt``` in the terminal
-  7) This will install the required libraries
-  8) Next, Type ```python app.py``` in the terminal and this will open the app on the browser
+  8) Open the app.py file and type in your reddit api credentials and replace the # in ```reddit = praw.Reddit(client_id='#',client_secret='#', user_agent='#', username='#',password='#')``` with your credentials
+  9) This will install the required libraries
+  10) Next, Type ```python app.py``` in the terminal and this will open the app on the browser
 
 After finishing installation, give r/India post link to the flair detector and it will output the predicted flair
 The flair detector also has a link to the **automated_checkpoint**
@@ -50,3 +51,12 @@ In the automated checkpoint, Give an input of reddit links as a .txt file for ex
 We deploy the apps on heroku
 1) The link for the flair detector is - https://reddit-flair-det.herokuapp.com/
 2) The link for the automated_checkpoint is - https://reddit-automated-checkpoint.herokuapp.com/
+
+
+## References-
+1)https://towardsdatascience.com/deploying-a-deep-learning-model-on-heroku-using-flask-and-python-769431335f66
+2)https://towardsdatascience.com/designing-a-machine-learning-model-and-deploying-it-using-flask-on-heroku-9558ce6bde7b
+3)https://www.storybench.org/how-to-scrape-reddit-with-python/
+4)https://stackoverflow.com/questions/54396405/how-can-i-preprocess-nlp-text-lowercase-remove-special-characters-remove-numb
+5)https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
+6)https://praw.readthedocs.io/en/latest/code_overview/models/submission.html
